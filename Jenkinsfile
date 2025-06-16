@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/<your-username>/static-website-cicd.git'
+                git 'https://github.com/chandni-ahuja-04/apache-jenkins.git'
             }
         }
 
